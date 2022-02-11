@@ -1,0 +1,137 @@
+@charset "utf-8";
+@import "base.css";
+
+
+
+body
+{
+    overflow:visible;
+    margin: 0;
+    
+}
+
+header
+{
+    text-decoration: none;
+    min-width: 100%;
+    overflow: visible;
+
+}
+
+header div
+{
+    display: flex;
+    justify-content: center;
+     overflow: visible;
+    background-color: #FFF;
+}
+hr{
+    width: 100%;
+    margin-top:70px;
+    margin: 0 auto;
+    border-top: 3px solid #000;
+    border-radius: 20px;
+
+}
+header div .title
+{
+    display: flex;
+    justify-content: space-around;
+     overflow: visible;
+     padding-right: 30%;
+
+}
+
+.title h1 {
+    display: flex;
+    font-size: 20px;
+    color: #000;
+    line-height: 56px;
+    letter-spacing: .4px;
+    font-weight: 400;
+
+
+}
+.hero-banner {
+    background:url(../Assets/joshua-koblin-tgfWXmlhNZc-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner{
+    height: 94.2vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner h2 {
+    font-size: 46px;
+    color: #FFF;
+    
+}
+.banner h3{
+    font-size: 24px;
+    font-weight: 300;
+    color: black;
+
+}
+.banner hr{
+    width: 75%;
+    margin-top:70px;
+    margin: 0 auto;
+    border-top: 3px solid #FFF;
+    border-radius: 20px;
+}
+nav
+{
+    color: white;
+    text-align: right;
+    height: 56px;
+    text-decoration: none;
+}
+nav ul {
+    list-style:none;
+    font-size: 0;
+    justify-content: space-around;
+}
+nav ul li {
+    display:inline;
+    line-height: 56px;
+    cursor:default;
+    justify-content: space-around;
+}
+nav ul li a {
+    font-size: 18px;
+    color: #000;
+    line-height: 56px;
+    letter-spacing: .4px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 19px;
+    padding-bottom: 16px;
+
+
+}
+nav ul li a:hover{
+    color: #000;
+    font-weight: 400;
+    background-color: #a0a0a0;
+
+
+}nav ul li a:active{
+    color: #000;
+    background: #cfcfcf;
+    -webkit-box-shadow: inset 0px 0px 5px #8b8b8b;
+       -moz-box-shadow: inset 0px 0px 5px #8b8b8b;
+        box-shadow: inset 0px 0px 5px #8b8b8b;
+}
+nav ul li + li{
+    margin-left:25px;
+}
+
+
+
